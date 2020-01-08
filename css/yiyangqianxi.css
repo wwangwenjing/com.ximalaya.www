@@ -1,0 +1,79 @@
+header .listen {
+    width: 100%;
+}
+.listen img {
+    vertical-align: top;
+    width: 100%;
+}
+.new {
+    width: 100%;
+       overflow: hidden;
+ 
+}
+.new ul {
+    width: 100%;
+}
+.new ul li {
+    float: left;
+    width: calc(106.5rem / 32);
+}
+.new li img {
+    width: 100%;
+    vertical-align: top;
+
+}
+.quickly {
+    width: 100%;
+    overflow: hidden;
+}
+.quickly a {
+    float: left;
+    width: calc(160rem / 32);
+}
+.quickly a img {
+    width: calc(160rem / 32);
+    vertical-align: top;
+}
+main {
+    width: 100%;
+}
+main .youth {
+    width: 100%;
+}
+main .youth ul {
+    width: 100%;
+    overflow: hidden;
+}
+.youth ul li {
+    float: left;
+    width: 100%;
+}
+.youth li img {
+    width: 100%;
+    vertical-align: top;
+} 
+main .shipin {
+    width: 100%;
+    background-image: url(../vedio/背景.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+} 
+.shipin video {
+    width: calc(281rem / 32);
+    height: calc(157rem / 32);
+}
+.classics {
+    width: 100%;
+}
+.classics ul {
+    width: 100%;
+    overflow: hidden;
+}
+.classics ul li {
+    float: left;
+    width: 100%;
+}
+.classics li img {
+    width: 100%;
+    vertical-align: top;
+}

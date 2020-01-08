@@ -1,0 +1,397 @@
+header {
+    position: relative;
+    width: 100%;
+    height: calc(47rem / 32);
+    overflow: hidden;
+}
+header .one,
+header .two,
+header .three {
+    float: left;
+
+}
+header .one {
+    width: calc(100rem / 32);
+    height: calc(47rem / 32);
+    padding-top: calc(23rem / 32);
+}
+header .one a {
+    color: #FA2800;
+    margin-left: calc( 8rem / 32);
+}
+header .two {
+    width: calc(127rem / 32);
+    height: calc(47rem / 32);
+    padding-top: calc(15rem / 32);
+    margin-left: calc(20rem / 32);
+}
+header .two input {
+    width: calc(118rem / 32);
+    height: calc(30rem / 32);
+    border-radius: calc(35rem / 32);
+    border: none;
+    padding-left: calc(30rem / 32);
+    background-color: #EFF1F4;
+
+}
+header .two .iconfont {
+    position: absolute;
+    top: calc(20rem / 32);
+    left: calc(128rem / 32);
+    color: #9C9C9D;
+}
+header .three {
+    width: calc(71rem / 32);
+    height: calc(39rem / 32);
+    padding-top: calc(14rem / 32);
+    padding-left: calc(0rem / 32);
+
+}
+header .three span {
+    display: block;
+    width: calc(68rem / 32);
+    height: calc(30rem / 32);
+    border: 1px solid #FA2800;
+    border-radius: calc(15rem / 32);
+    text-align: center;
+    line-height: calc(30rem / 32);
+    color: #FA2800;
+}
+nav {
+    width: 100%;
+    height: calc(48rem / 32);
+    /* background-color: khaki; */
+}
+nav ul {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-left: calc(25rem / 32);
+    border-bottom: 1px solid #E8E8E8;
+}
+nav ul li {
+    float: left;
+    height: calc(48rem / 32);
+    /* background-color: lemonchiffon; */
+    line-height: calc(48rem / 32);
+
+}
+nav ul li:nth-child(5) a {
+    display: block;
+    font-size: calc(17rem / 32);
+    border-bottom: 3px solid #F06742;
+    margin-top: calc(-3rem / 32);
+}
+nav ul li:nth-child(-n+5) {
+
+    margin-right: calc(26.5rem / 32);
+}
+nav li a {
+    font-size: calc(14rem / 32);
+    color: #83838B;
+}
+nav ul li:last-child {
+    position: absolute;
+    right: calc(-15rem / 32);
+    top: 0;
+    overflow: hidden;
+    padding-left: calc(16rem / 32);
+}
+main {
+    width: 100%;
+}
+main .box-one {
+    position: relative;
+    width: 100%;
+    height: calc(145rem / 32);
+    padding-top: calc(10rem / 32);
+}
+.list {
+    position: relative;
+    width: 100%;
+    height: calc(100rem / 32);
+    list-style: none;
+}
+.item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all.5s;
+}
+.item img{
+    width:100%;
+    /* height: calc(128rem / 32); */
+}
+.item:nth-child(1) {
+    background-color: brown;
+}
+.item:nth-child(2) {
+    background-color:khaki;
+}
+.item:nth-child(3) {
+    background-color: sienna;
+}
+.item:nth-child(4) {
+    background-color:lightskyblue;
+}
+.item:nth-child(5) {
+    background-color: tomato;
+}
+
+ .btn {
+    position: absolute;
+    top: calc(50rem / 32);
+    width: calc(20rem / 32);
+    height: calc(30rem / 32);
+    z-index: 100;
+    background-color: transparent;
+}
+#goPre {
+    left: calc(0rem / 32);
+}
+#goNext {
+    right: calc(0rem / 32);
+}
+li.active {
+    opacity: 1;
+    z-index: 10;
+}
+.pointList {
+    list-style: none;
+    position: absolute;
+    right: calc(20rem / 32);
+    bottom: calc(20rem / 32);
+    z-index: 1000;
+}
+.point {
+    float: left;
+    width: calc(8rem / 32);
+    height: calc(8rem / 32);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    margin-right: calc(14rem / 32);
+    border-style: solid;
+    border-width: calc(2rem / 32);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+.point .active {
+    background-color: rgba(255, 255, 255, 0.2);
+} 
+main .box-two {
+    width: 100%;
+    height: calc(54rem / 32);
+}
+main .box-two ul {
+    width: 100%;
+    padding-left: calc(10rem / 32);
+    overflow: hidden;
+}
+main .box-two li {
+    float: left;
+    width: calc(60rem / 32);
+    height: calc(54rem / 32);
+    text-align: center;
+}
+.box-two li a {
+    display: block;
+}
+.box-two li a:nth-child(2) {
+    color: #5F5F5F;
+}
+.box-two li img {
+    width: calc(34rem / 32);
+    height: calc(34rem / 32);
+    border-radius: 50%;
+    margin-top: calc(2rem / 32);
+    margin-bottom: calc(3rem / 32);
+}
+.box-three {
+    width: 100%;
+    height: calc(70rem / 32);
+    margin-top: calc(21rem / 32);
+}
+.box-three img {
+    width: 100%;
+}
+/* 故事开智 */
+.box-four-title {
+    width: 100%;
+    height: calc(60rem / 32);
+    overflow: hidden;
+    padding-left: calc(16rem / 32);
+}
+.box-four-title h1 {
+    font-size: calc(18rem / 32);
+    margin-top: calc(21rem / 32);
+}
+.box-four {
+    width: 100%;
+    height: calc(142rem / 32);
+}
+.box-four ul {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 calc(18rem / 32);
+}
+.box-four ul li {
+    position: relative;
+    float: left;
+    width: calc(91rem / 32);
+    height: calc(142rem / 32);
+}
+.box-four ul li:nth-child(-n+2) {
+    margin-right: calc(5.5rem/ 32);
+}
+.box-four li .top {
+    width: calc(91rem / 32);
+    height: calc(91rem / 32);
+}
+.box-four .top img {
+    width: 100%;
+    border-radius: calc(5rem / 32);
+}
+.box-four .top span {
+
+    display: block;
+    position: absolute;
+    top: calc(63rem / 32);
+    width: calc(91rem / 32);
+    height: calc(28rem /32);
+    background-color: transparent;
+    font-size: calc(12rem / 32);
+    color: white;
+    line-height: calc(28rem /32);
+    padding-top: calc(5rem / 32);
+    padding-left: calc(3rem / 32);
+
+}
+.box-four .bottom {
+    width: calc(91rem / 32);
+    height: calc(51rem / 32);
+    padding-top: calc(5rem / 32);
+}
+
+.box-four .bottom a {
+    display: block;
+    font-size: calc(14rem / 32);
+    color: #333333;
+    line-height: calc(20rem / 32);
+    overflow: hidden;
+    
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+/* 海底两万里 */
+.box-five {
+    width: 100%;
+    margin-top: calc(15rem / 32);
+}
+.box-five ul {
+    padding: 0 calc(18rem / 32);
+}
+.box-five ul li {
+    overflow: hidden;
+    margin-top: calc(20rem / 32);
+}
+.box-five a:nth-child(1) {
+    float: left;
+    display: block;
+    width: calc(95rem / 32);
+    height: calc(95rem / 32);
+
+}
+.box-five a:nth-child(1) img {
+    width: 100%;
+    border-radius: calc(5rem / 32);
+}
+.box-five a:nth-child(2) {
+    float: right;
+    display: block;
+    width: calc(175rem / 32);
+    height: calc(95rem / 32);
+}
+.box-five a:nth-child(2) h1 {
+    font-size: calc(16rem / 32);
+    color: black;
+    font-weight: normal;
+    margin-top: calc(0rem / 32);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box-five a:nth-child(2) i {
+    font-size: calc(14rem / 32);
+    color: #9C9C9D;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: calc(15rem / 32);
+}
+.box-five a:nth-child(2) s {
+    font-size: calc(13rem / 32);
+    color: #9C9C9D;
+
+}
+.box-five a:nth-child(2) s:nth-child(1) {
+    margin-right: calc(31rem / 32);
+}
+footer {
+    width: 100%;
+    height: calc(295rem / 32);
+    background-image: url(../upload/footer_bg_2b1fa03.png);
+    background-size: 100% 100%;
+}
+.listen {
+    width: 100%;
+    height: calc(95rem / 32);
+    text-align: center;
+}
+.listen img {
+    width: calc(161rem / 32);
+    height: calc(40rem / 32);
+    margin-top: calc(35rem / 32);
+}
+.open {
+    width: 100%;
+    height: calc(53rem / 32);
+}
+.open-box {
+    width: calc(292rem / 32);
+    height: calc(50rem / 32);
+    border: 1px solid #FA2800;
+    border-radius: calc(30rem / 32);
+    margin-left: calc(14rem / 32);
+    text-align: center;
+    line-height: calc(50rem / 32);
+}
+.open-box a {
+    font-size: calc(16rem / 32);
+    color: #FA2800;
+}
+.end {
+    width: 100%;
+    height: calc(65rem / 32);
+    text-align: center;
+    padding-top: calc(19rem / 32);
+}
+.end p:nth-child(1) {
+    margin-bottom: calc(5rem / 32);
+}
+.end p {
+    color: #808080;
+}
+.all {
+    width: 100%;
+    text-align: center;
+}
+.all a {
+    color: #40404C;
+    font-size: calc(14rem / 32);
+}
+.all i {
+    margin: 0 calc(17rem / 32);
+}
